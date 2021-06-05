@@ -345,6 +345,9 @@
     .title-text {
         font-size: 1.1rem; 
     }
+    .title-child {
+        font-size: 1.7rem;
+    }
 
     .form-contact .form-child{
         width: 40%;
