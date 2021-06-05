@@ -122,8 +122,15 @@
     .menu {
         display: none; 
         justify-content: center;
+        order: 3;
         width: 100%;
         margin: 0;
+        opacity: 0;
+    }
+
+    @keyframes muestraMenu{
+        from{opacity: 0;}
+        to{opacity: 1;}
     }
 
     .menu ul{
@@ -131,10 +138,19 @@
         
     }
     
-    .menu ul li{
-        margin-top: 0.5rem;
+    .menu.activado {
+        display: flex;
+        animation: muestraMenu 350ms ease-in-out both;
     }
 
+    .menu ul li{
+        margin: 0.5rem 0.5rem;
+        background-color: var(--secondary-color)
+    }
+
+    .menu ul a {
+        color: black;
+    }
     .ham {
         display: block;
         margin: 1rem;
@@ -181,7 +197,8 @@
     }
 
     .menu {
-        display: none; 
+        display: none;
+        order: 3; 
         justify-content: center;
         width: 100%;
         margin: 0;
@@ -193,7 +210,7 @@
     }
     
     .menu ul li{
-        margin-top: 0.5rem;
+        margin-top: 1rem;
     }
 
     .ham {
