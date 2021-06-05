@@ -73,10 +73,6 @@
 }
 
 
-.menu a:hover {
-    color: var(--secondary-color);
-}
-
 .ham {
     display: none; 
     border: none;
