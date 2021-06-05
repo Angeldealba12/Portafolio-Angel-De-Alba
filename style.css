@@ -72,9 +72,6 @@
     margin: 1rem;
 }
 
-.menu a:focus {
-    color: var(--secondary-color);
-}
 
 .menu a:hover {
     color: var(--secondary-color);
