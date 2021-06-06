@@ -42,6 +42,10 @@
     .description-child h2 {
         width: 90%;
     }
+
+    .myEducation {
+        font-size: 0.93rem;
+    }
 }
 
 @media (max-width: 1000px){
@@ -74,6 +78,8 @@
     .img {
         width: 80%;
     }
+
+    
 }
 
 
@@ -177,15 +183,23 @@
     .container-child .second-child{
         font-size: 2.5rem;
     }
+
+    .myEducation {
+        font-size: 0.93rem;
+    }
+
     .services {
         width: 95%;
     }
+
     .fourth-container .title {
         width: 60%;
     }
+
     .fourth-container .projects {
         width: 90%;
     }
+
     .fourth-container .project {
         margin: 0.5rem;
     }   
@@ -297,6 +311,10 @@
         text-align: center;
     }
 
+    .myEducation {
+        font-size: 0.9rem;
+    }
+
     .fourth-container {
         height: 200vh;
     }
@@ -365,6 +383,10 @@
         padding: 0.5rem;
     }
     
+    .myEducation {
+        font-size: 0.81rem;
+    }
+
     .sixth-container {
         height: 130vh;
     }

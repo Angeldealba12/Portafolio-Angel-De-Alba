@@ -255,6 +255,20 @@
     border-radius: 3rem;
 }
 
+.myEducation {
+    font-family: "Josefin Sans", sans-serif;;
+    margin: 2rem;
+    height: 10rem;
+}
+
+.skills img {
+    margin: 0 1rem 1rem 1rem;
+    width: 90%;
+    height: 60%;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
 .title {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
@@ -292,9 +306,30 @@
         rgba(0, 0, 0, 0.25) 0 0.125em 0.5em,
         rgba(255, 255, 255, 0.1) 0 0 0 1px inset;
     border-radius: 3rem;    
+    background-size: cover;
+    background-position: center;
     
 }
 
+.prj1 {
+    background-image: url(img/project1.png);
+}
+
+.prj2 {
+    background-image: url(img/project2.jpg);
+}
+.prj3 {
+    background-image: url(img/project3.jpg);
+}
+.prj4 {
+    background-image: url(img/project4.png);
+}
+.prj5 {
+    background-image: url(img/project5.png);
+}
+.prj6 {
+    background-image: url(img/project6.jpg);
+}
 /* FIFTH CONTAINER */
 .fifth-container {
     height: 100vh;
